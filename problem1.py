@@ -17,3 +17,16 @@ outputs:
 Access granted
 Access denied
 """
+a = input("write username ")
+b = input("write password ")
+count = 0
+while count>3:
+    if a ==("admin"):
+        input(b)
+    else:
+        print(a)
+    if b == ("12345"):
+        print("access granted")
+    else:
+        print(b)
+    count= count+1

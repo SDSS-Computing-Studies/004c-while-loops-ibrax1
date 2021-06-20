@@ -15,3 +15,13 @@ outputs:
 Access granted
 Access denied
 """
+a = input("write username ")
+b = input("write password ")
+if a ==("admin"):
+    input(b)
+else:
+    print("access denied")
+if b == ("12345"):
+    print("access granted")
+else:
+    print("access denied")
